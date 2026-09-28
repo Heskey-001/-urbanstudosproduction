@@ -1,0 +1,16 @@
+{
+  "name": "urban-studios-bulk-sms",
+  "version": "1.0.0",
+  "description": "Urban Studios website with bulk SMS support",
+  "main": "server.js",
+  "scripts": {
+    "start": "\"C:\\Program Files\\nodejs\\node.exe\" server.js",
+    "dev": "\"C:\\Program Files\\nodejs\\node.exe\" --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "express": "^4.22.3",
+    "sqlite3": "^6.0.1",
+    "twilio": "^5.13.1"
+  }
+}
